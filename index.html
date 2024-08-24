@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reclamações e Atualizações</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Reclamações e Atualizações</h1>
+        <p>Atualize seu dia com nós!</p>
+    </header>
+
+    <main>
+        <section id="update-form">
+            <h2>Adicionar Atualização</h2>
+            <textarea id="updateContent" placeholder="Compartilhe algo..."></textarea>
+            <button onclick="addUpdate()">Adicionar Atualização</button>
+        </section>
+
+        <section id="complaint-form">
+            <h2>Adicionar Reclamação</h2>
+            <textarea id="complaintContent" placeholder="Compartilhe sua reclamação..."></textarea>
+            <button onclick="addComplaint()">Adicionar Reclamação</button>
+        </section>
+
+        <section id="feed">
+            <h2>Feed de Atualizações e Reclamações</h2>
+            <div id="updatesFeed"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
